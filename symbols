@@ -37,6 +37,7 @@ libgbinder.so.1:gbinder_local_object_drop
 libgbinder.so.1:gbinder_local_object_new
 libgbinder.so.1:gbinder_local_object_new_reply
 libgbinder.so.1:gbinder_local_object_ref
+libgbinder.so.1:gbinder_local_object_set_stability
 libgbinder.so.1:gbinder_local_object_unref
 libgbinder.so.1:gbinder_local_reply_append_bool
 libgbinder.so.1:gbinder_local_reply_append_double

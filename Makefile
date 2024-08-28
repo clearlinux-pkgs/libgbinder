@@ -1,5 +1,5 @@
 PKG_NAME := libgbinder
-URL = https://github.com/mer-hybris/libgbinder/archive/refs/tags/1.1.39.tar.gz
+URL = https://github.com/mer-hybris/libgbinder/archive/1.1.40/libgbinder-1.1.40.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : libgbinder
-Version  : 1.1.39
-Release  : 1
-URL      : https://github.com/mer-hybris/libgbinder/archive/refs/tags/1.1.39.tar.gz
-Source0  : https://github.com/mer-hybris/libgbinder/archive/refs/tags/1.1.39.tar.gz
+Version  : 1.1.40
+Release  : 2
+URL      : https://github.com/mer-hybris/libgbinder/archive/1.1.40/libgbinder-1.1.40.tar.gz
+Source0  : https://github.com/mer-hybris/libgbinder/archive/1.1.40/libgbinder-1.1.40.tar.gz
 Summary  : Binder client library
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -53,15 +53,15 @@ license components for the libgbinder package.
 
 
 %prep
-%setup -q -n libgbinder-1.1.39
-cd %{_builddir}/libgbinder-1.1.39
+%setup -q -n libgbinder-1.1.40
+cd %{_builddir}/libgbinder-1.1.40
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723825732
+export SOURCE_DATE_EPOCH=1724884136
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -95,7 +95,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1723825732
+export SOURCE_DATE_EPOCH=1724884136
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libgbinder
 cp %{_builddir}/libgbinder-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/libgbinder/a0e86b471ed91166f534f2e9717a38c5710a4cae || :
@@ -133,7 +133,7 @@ GOAMD64=v2
 %defattr(-,root,root,-)
 /usr/lib64/libgbinder.so.1
 /usr/lib64/libgbinder.so.1.1
-/usr/lib64/libgbinder.so.1.1.39
+/usr/lib64/libgbinder.so.1.1.40
 
 %files license
 %defattr(0644,root,root,0755)
