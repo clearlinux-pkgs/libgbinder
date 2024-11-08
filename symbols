@@ -96,6 +96,7 @@ libgbinder.so.1:gbinder_reader_read_int8
 libgbinder.so.1:gbinder_reader_read_nullable_object
 libgbinder.so.1:gbinder_reader_read_nullable_string16
 libgbinder.so.1:gbinder_reader_read_nullable_string16_utf16
+libgbinder.so.1:gbinder_reader_read_nullable_string8
 libgbinder.so.1:gbinder_reader_read_object
 libgbinder.so.1:gbinder_reader_read_parcelable
 libgbinder.so.1:gbinder_reader_read_string16
